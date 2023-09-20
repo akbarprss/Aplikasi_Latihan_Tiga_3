@@ -47,9 +47,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(4, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(51, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nama";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -57,18 +58,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 43);
+            this.label2.Location = new System.Drawing.Point(4, 67);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(87, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Pendidikan";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 86);
+            this.label3.Location = new System.Drawing.Point(4, 134);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.Size = new System.Drawing.Size(80, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Pekerjaan";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -76,6 +79,7 @@
             // lstPekerjaan
             // 
             this.lstPekerjaan.FormattingEnabled = true;
+            this.lstPekerjaan.ItemHeight = 20;
             this.lstPekerjaan.Items.AddRange(new object[] {
             "PEDAGANG",
             "PNS",
@@ -85,43 +89,48 @@
             "NGANGGUR",
             "GADANG",
             "PUSH RANK"});
-            this.lstPekerjaan.Location = new System.Drawing.Point(80, 89);
+            this.lstPekerjaan.Location = new System.Drawing.Point(119, 139);
+            this.lstPekerjaan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstPekerjaan.Name = "lstPekerjaan";
-            this.lstPekerjaan.Size = new System.Drawing.Size(407, 121);
+            this.lstPekerjaan.Size = new System.Drawing.Size(608, 184);
             this.lstPekerjaan.TabIndex = 5;
             this.lstPekerjaan.SelectedIndexChanged += new System.EventHandler(this.lstPekerjaan_SelectedIndexChanged);
             // 
             // txtPesan1
             // 
             this.txtPesan1.Enabled = false;
-            this.txtPesan1.Location = new System.Drawing.Point(3, 3);
+            this.txtPesan1.Location = new System.Drawing.Point(4, 5);
+            this.txtPesan1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPesan1.Name = "txtPesan1";
-            this.txtPesan1.Size = new System.Drawing.Size(510, 20);
+            this.txtPesan1.Size = new System.Drawing.Size(723, 26);
             this.txtPesan1.TabIndex = 6;
             // 
             // txtPesan2
             // 
             this.txtPesan2.Enabled = false;
-            this.txtPesan2.Location = new System.Drawing.Point(3, 29);
+            this.txtPesan2.Location = new System.Drawing.Point(4, 41);
+            this.txtPesan2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPesan2.Name = "txtPesan2";
-            this.txtPesan2.Size = new System.Drawing.Size(510, 20);
+            this.txtPesan2.Size = new System.Drawing.Size(723, 26);
             this.txtPesan2.TabIndex = 7;
             this.txtPesan2.TextChanged += new System.EventHandler(this.txtPesan2_TextChanged);
             // 
             // txtPesan3
             // 
             this.txtPesan3.Enabled = false;
-            this.txtPesan3.Location = new System.Drawing.Point(3, 55);
+            this.txtPesan3.Location = new System.Drawing.Point(4, 77);
+            this.txtPesan3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPesan3.Name = "txtPesan3";
-            this.txtPesan3.Size = new System.Drawing.Size(510, 20);
+            this.txtPesan3.Size = new System.Drawing.Size(723, 26);
             this.txtPesan3.TabIndex = 8;
             this.txtPesan3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(3, 81);
+            this.btnOk.Location = new System.Drawing.Point(4, 113);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(510, 37);
+            this.btnOk.Size = new System.Drawing.Size(723, 57);
             this.btnOk.TabIndex = 9;
             this.btnOk.Text = "Ok";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -138,17 +147,19 @@
             "SARJANA",
             "PASCASARJANA",
             ""});
-            this.cmbPendidikan.Location = new System.Drawing.Point(80, 46);
+            this.cmbPendidikan.Location = new System.Drawing.Point(119, 72);
+            this.cmbPendidikan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbPendidikan.Name = "cmbPendidikan";
-            this.cmbPendidikan.Size = new System.Drawing.Size(407, 21);
+            this.cmbPendidikan.Size = new System.Drawing.Size(608, 28);
             this.cmbPendidikan.TabIndex = 10;
             this.cmbPendidikan.SelectedIndexChanged += new System.EventHandler(this.cmbPendidikan_SelectedIndexChanged);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(80, 3);
+            this.txtName.Location = new System.Drawing.Point(119, 5);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(407, 20);
+            this.txtName.Size = new System.Drawing.Size(608, 26);
             this.txtName.TabIndex = 11;
             // 
             // tableLayoutPanel1
@@ -162,13 +173,14 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.lstPekerjaan, 1, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 41);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(18, 14);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 126F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(490, 213);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 194F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(735, 328);
             this.tableLayoutPanel1.TabIndex = 12;
             // 
             // flowLayoutPanel1
@@ -177,18 +189,20 @@
             this.flowLayoutPanel1.Controls.Add(this.txtPesan2);
             this.flowLayoutPanel1.Controls.Add(this.txtPesan3);
             this.flowLayoutPanel1.Controls.Add(this.btnOk);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 260);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(18, 352);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(490, 107);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(735, 186);
             this.flowLayoutPanel1.TabIndex = 13;
             // 
             // frmLatihanTiga3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(778, 416);
+            this.ClientSize = new System.Drawing.Size(764, 552);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmLatihanTiga3";
             this.Text = "Latihan 3.3";
             this.Load += new System.EventHandler(this.frmLatihanTiga3_Load);

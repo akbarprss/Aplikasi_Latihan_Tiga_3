@@ -8,3 +8,12 @@ E:\22.11.4758\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatiha
 E:\22.11.4758\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.csproj.CoreCompileInputs.cache
 E:\22.11.4758\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.exe
 E:\22.11.4758\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.pdb
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\bin\Debug\AplikasiLatihanTiga3.exe.config
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.exe
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.pdb
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\bin\Debug\AplikasiLatihanTiga3.exe
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\bin\Debug\AplikasiLatihanTiga3.pdb
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.csprojResolveAssemblyReference.cache
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.frmLatihanTiga3.resources
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.Properties.Resources.resources
+D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.csproj.GenerateResource.Cache
