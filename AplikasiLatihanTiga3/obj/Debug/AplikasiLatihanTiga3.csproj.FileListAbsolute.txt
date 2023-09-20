@@ -17,3 +17,6 @@ D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatih
 D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.frmLatihanTiga3.resources
 D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.Properties.Resources.resources
 D:\MAIN STORAGE\Download\AplikasiLatihanTiga3\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.csproj.GenerateResource.Cache
+D:\AplikasiLatihanTiga3\AplikasiLatihanTiga3\bin\Debug\AplikasiLatihanTiga3.exe.config
+D:\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.exe
+D:\AplikasiLatihanTiga3\AplikasiLatihanTiga3\obj\Debug\AplikasiLatihanTiga3.pdb
